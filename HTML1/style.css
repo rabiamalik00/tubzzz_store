@@ -1,0 +1,244 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    background-color: #1a1a2e; 
+    color: #e0e0e0;
+}
+
+/* CONTAINER AND CARD */
+.registration-container {
+    padding: 20px;
+    width: 100%;
+    max-width: 420px;
+}
+
+.registration-card {
+    /* Neumorphism Base Style */
+    background: #1a1a2e;
+    padding: 40px 30px;
+    border-radius: 18px;
+    position: relative; 
+    overflow: hidden; 
+
+    /* Soft Neumorphism Shadow */
+    box-shadow: 
+        -5px -5px 15px rgba(45, 45, 75, 0.4), 
+        5px 5px 15px rgba(0, 0, 0, 0.5);      
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+}
+
+.registration-card:hover {
+    box-shadow: 
+        -10px -10px 30px rgba(45, 45, 75, 0.6),
+        10px 10px 30px rgba(0, 0, 0, 0.7);
+}
+
+/* HEADER STYLES */
+.card-header h2 {
+    color: #00ffff; 
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.card-header i {
+    margin-right: 10px;
+}
+
+.card-header p {
+    color: #a0a0b0;
+    margin-bottom: 35px;
+    font-size: 0.9em;
+}
+
+/* INPUT FIELD STYLES */
+.input-group {
+    position: relative;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 0 15px;
+
+    background: #1a1a2e;
+    box-shadow: 
+        inset 3px 3px 6px rgba(0, 0, 0, 0.4),
+        inset -3px -3px 6px rgba(45, 45, 75, 0.6);
+}
+
+.input-group i {
+    color: #00ffff;
+    margin-right: 10px;
+    font-size: 1em;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px 0;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    background: transparent;
+    color: #f0f0f0;
+}
+
+.input-group input::placeholder {
+    color: #a0a0b0;
+    opacity: 0.7;
+}
+
+/* Focused input highlight */
+.input-group input:focus {
+    box-shadow: 0 0 0 1px #00ffff; 
+}
+
+/* Password Toggle Icon */
+.toggle-password {
+    cursor: pointer;
+    color: #a0a0b0;
+    transition: color 0.2s;
+}
+
+.toggle-password:hover {
+    color: #00ffff;
+}
+
+/* BUTTON */
+.register-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #00ffff; 
+    color: #1a1a2e;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1em;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4), -4px -4px 8px rgba(45, 45, 75, 0.4);
+}
+
+.register-btn:hover {
+    background-color: #00e0e0;
+    transform: translateY(-2px);
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.5), -6px -6px 12px rgba(45, 45, 75, 0.5);
+}
+
+/* ERROR MESSAGE */
+.error-text {
+    color: #ff6347; 
+    text-align: left;
+    margin-top: -15px;
+    margin-bottom: 20px;
+    font-size: 0.9em;
+    visibility: hidden;
+}
+
+/* FOOTER LINK */
+.login-link {
+    margin-top: 30px;
+    color: #a0a0b0;
+    font-size: 0.9em;
+}
+
+.login-link a {
+    color: #00ffff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+
+/* --- SLIDER STYLES --- */
+
+.slider-cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1a1a2e; 
+    z-index: 100; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s ease-in-out; 
+}
+
+/* SLIDE TEXT */
+.slide-text {
+    text-align: center;
+    margin-bottom: 50px;
+    user-select: none;
+    color: #00ffff;
+    font-size: 1.5em;
+    font-weight: 600;
+    animation: pulse 1.5s infinite; 
+}
+
+.slide-arrow {
+    font-size: 1.2em;
+    margin-left: -10px;
+    opacity: 0.5;
+}
+
+@keyframes pulse {
+    0% { opacity: 0.5; }
+    50% { opacity: 1; }
+    100% { opacity: 0.5; }
+}
+
+/* SLIDE BUTTON CONTAINER */
+.slide-button {
+    width: 60px;
+    height: 60px;
+    background-color: #00ffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: grab; 
+    
+    /* Outset Neumorphism for the button */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5), -4px -4px 10px rgba(45, 45, 75, 0.5);
+    transition: all 0.1s;
+    
+
+    position: absolute;
+    bottom: 40px; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.slide-button i {
+    color: #1a1a2e;
+    font-size: 1.5em;
+}
+
+.slide-button:active {
+    cursor: grabbing;
+}
+
+/* FINAL SLIDE STATE (Applied by JS) */
+.slider-cover.slid-out {
+    transform: translateX(100%);
+}
+
+/* Responsive adjustments */
+@media (max-width: 450px) {
+    .registration-card {
+        padding: 30px 20px;
+        margin: 0 10px;
+    }
+}

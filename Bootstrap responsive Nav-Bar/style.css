@@ -1,0 +1,15 @@
+.navbar-custom {
+    background-color: #c5b0e2;
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: #0c0c0c;
+}
+.navbar-custom .nav-link:hover {
+    color: #e8652d;
+}
+.navbar-collapse{
+    background-color: #e8652d;
+    justify-content: center;
+    justify-content: space-between;
+}

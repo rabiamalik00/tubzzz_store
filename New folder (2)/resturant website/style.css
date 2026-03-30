@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.back-img {
+    background-image: url(back.rest.jpg);
+
+}
+.intro{
+    height: 10px;
+}
+.main {
+    width: 100%;
+    /* background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(back.rest.jpg); */
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+
+}
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+
+}
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+
+}
+
+.logo {
+    color: #ff7200;
+    font-size: 23px; 
+    font-family: Arial;
+    padding: 20px;
+    float: left;
+    padding-top: 20px;
+    white-space: nowrap; 
+}
+
+.menu {
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 150px;
+}
+
+ul li {
+    list-style: none;
+    margin-right: 62px;
+    margin-top: 27px;
+    font-size: 15px;
+    
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    border: 1px solid #ff7200;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    /* height: 500px; */
+    border-radius: 5px;
+
+}
+
+ul li a:hover {
+    color: #c26b24;
+}
+
+.search {
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+    
+}
+
+.srch {
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom: 5.px;
+    border-top-left-radius: 5px;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+
+}
+
+.btn:focus {
+    outline: none;
+
+}
+
+.srch:focus {
+    outline: none;
+}
+
+footer {
+    background-color: #ff7200;
+}
+
+.footerContainer {
+    width: 100%;
+    /* padding: 70px 30px 20px; */
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+input[type="text"],
+textarea {
+
+    background-color: #d1d1d1;
+
+}
+
+.socialIcons a i {
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+
+
+
+
+
+
+
+.intro {
+    /* background-color: ; */
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    top: -500px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+}
+
+
+
+.intro h1 {
+    color: white;
+    font-size: 36px;
+}
+
+.intro p {
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+
+
+
+
+.mid {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    /* Center vertically */
+    justify-content: center;
+    /* Center horizontally */
+    height: 100vh;
+    position: relative;
+    top: -20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #dce0cf;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    color: #130a0a;
+}
+
+.recipe-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.recipe-item {
+    flex: 1;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #da3636;
+    border-radius: 5px;
+}
+
+.recipe-item img {
+    max-width: 100%;
+    /* Make sure the image doesn't exceed the container width */
+    height: auto;
+    /* Allow the image to scale proportionally */
+    width: 100%;
+    /* Force the image to take up 100% of the container width */
+    max-height: 200px;
+    /* Set a maximum height for the image */
+    object-fit: cover;
+    /* Maintain aspect ratio and cover the container */
+    border-radius: 5px;
+}
+
+.recipe-details {
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .gif {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 700px;
+    background-image: url('cofeebeans.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  

@@ -1,0 +1,38 @@
+.card-container {
+    display: flex;
+}
+
+.left-column,
+.right-column {
+    flex: 1; 
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+    width: 400px;
+    height: 120px;
+    display: flex;
+    align-items: center; 
+}
+
+.image {
+    flex: 1; 
+    margin-right: 10px; 
+}
+
+.image img {
+    max-width: 100%; 
+}
+
+.text {
+    flex: 2; 
+}
+
+.text h4 {
+    margin: 0; 
+    padding: 30px;
+    color: #c07b7b;
+}
