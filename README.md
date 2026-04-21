@@ -1,20 +1,37 @@
-<<<<<<< HEAD
-# my_signup_app
-=======
-# tubzzz_store
->>>>>>> f6fc9b2 (Initial commit)
+# 🛒 Tubzzz Store - Flutter E-commerce App
 
-A new Flutter project.
+Tubzzz Store is a modern Flutter application designed to provide a seamless and user-friendly shopping experience. It features a clean UI design and is fully integrated with Firebase for robust backend services.
 
-## Getting Started
+## ✨ Features
+* **User Authentication:** Secure Login and Signup using Email and Password via Firebase.
+* **Product Catalog:** A well-organized display of product lists and categories.
+* **Cart System:** Easy functionality to add or remove items from the shopping cart.
+* **Splash Screen:** A professional animated screen that appears when the app launches.
+* **Profile Page:** View user details and access a secure logout option.
 
-This project is a starting point for a Flutter application.
+## 🛠️ Tech Stack
+* **Framework:** [Flutter](https://flutter.dev)
+* **Backend:** [Firebase](https://firebase.google.com)
+* **Language:** Dart
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Setup & Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+To run this project locally, follow these steps:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/rabiamalik00/tubzzz_store.git](https://github.com/rabiamalik00/tubzzz_store.git)
+
+2. **Navigate to the project folder:**
+   ```bash
+cd tubzzz_store
+
+3. **Install dependencies:**
+   ```bash
+   flutter pub get
+
+4. **Run the application:**
+   ```bash
+   flutter run
+
+Made with ❤️ by Rabia Malik
