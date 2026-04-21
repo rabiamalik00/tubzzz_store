@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # my_signup_app
+=======
+# tubzzz_store
+>>>>>>> f6fc9b2 (Initial commit)
 
 A new Flutter project.
 

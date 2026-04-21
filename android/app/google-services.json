@@ -1,12 +1,19 @@
 {
   "project_info": {
+<<<<<<< HEAD
     "project_number": "906066694349",
     "project_id": "my-signup-app-9d3aa",
     "storage_bucket": "my-signup-app-9d3aa.firebasestorage.app"
+=======
+    "project_number": "251634240152",
+    "project_id": "tubzzz-beauty",
+    "storage_bucket": "tubzzz-beauty.firebasestorage.app"
+>>>>>>> f6fc9b2 (Initial commit)
   },
   "client": [
     {
       "client_info": {
+<<<<<<< HEAD
         "mobilesdk_app_id": "1:906066694349:android:a23d1acff9a548566c5984",
         "android_client_info": {
           "package_name": "com.example.my_signup_app"
@@ -16,11 +23,44 @@
       "api_key": [
         {
           "current_key": "AIzaSyAeIq8ZRgYL6WUQI2SngnNdINxQsI1hgjs"
+=======
+        "mobilesdk_app_id": "1:251634240152:android:199b3ab91162c4f94cdeed",
+        "android_client_info": {
+          "package_name": "com.example.tubzzz_store"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "251634240152-85lcnsgt9nd6oia1n64evtuuljujs0sg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tubzzz_store",
+            "certificate_hash": "a7a24699ff0b2be5dc207b1a1c9830c4c435a1ca"
+          }
+        },
+        {
+          "client_id": "251634240152-ii9t7irr00lgkdigg8rsch53nlse5sif.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBn6cCmZSiS6DhYkfCPv7JgT3VD5LKg9uI"
+>>>>>>> f6fc9b2 (Initial commit)
         }
       ],
       "services": {
         "appinvite_service": {
+<<<<<<< HEAD
           "other_platform_oauth_client": []
+=======
+          "other_platform_oauth_client": [
+            {
+              "client_id": "251634240152-ii9t7irr00lgkdigg8rsch53nlse5sif.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+>>>>>>> f6fc9b2 (Initial commit)
         }
       }
     }

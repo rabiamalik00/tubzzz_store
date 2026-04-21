@@ -8,7 +8,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
+<<<<<<< HEAD
 import 'package:my_signup_app/main.dart';
+=======
+import 'package:tubzzz_store/main.dart';
+>>>>>>> f6fc9b2 (Initial commit)
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {

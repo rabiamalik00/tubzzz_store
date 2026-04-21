@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
     "name": "my_signup_app",
     "short_name": "my_signup_app",
+=======
+    "name": "tubzzz_store",
+    "short_name": "tubzzz_store",
+>>>>>>> f6fc9b2 (Initial commit)
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
